@@ -1,0 +1,63 @@
+
+    ion-item {
+    --min-height : 73px !important;
+    }
+    .price {
+        padding-left: 20px;
+    }
+    .bg-netflix {
+    --ion-background-color: #111D12;
+    }
+    .bg-apple-music {
+    --ion-background-color: #BBB8BC;
+    }
+    .bg-fortnite {
+    --ion-background-color: #1e3673;
+    }
+    .bg-deezer {
+    --ion-background-color: #BBB8BC;
+    }
+    .bg-psn {
+    --ion-background-color: #5F83E2;
+    }
+    .bg-pubg {
+    --ion-background-color: #111D12;
+    }
+    .bg-spotify {
+    --ion-background-color: #111D12;
+    }
+    .bg-xboxlive {
+    --ion-background-color: #111D12;
+    }
+    // label design #e40913
+    .sc-ion-label-ios-s h3, .sc-ion-label-md-h  h3 {
+        color: floralwhite;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: -3px;
+        font-size: 18px;
+        float: right;
+        font-weight: revert;
+        line-height: normal;
+    }
+    .fortnite-left {
+        float: left;
+    }
+    .psn-left {
+        float: left;
+    }
+
+    .netflix-font {
+        color: #e40913 !important;
+        font-size: 18px;
+        font-weight: revert;
+        line-height: normal;
+    }
+    .apple-music-font {
+        color: #000 !important;
+        font-size: 18px;
+        margin-bottom: -5px;
+        font-weight: revert;
+        line-height: normal;
+    }

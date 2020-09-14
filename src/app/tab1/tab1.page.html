@@ -1,17 +1,104 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button>
+        <ion-icon slot="icon-only" color="dark" name="settings"></ion-icon>
+      </ion-button>
+    <ion-menu-button></ion-menu-button>
+    </ion-buttons>
     <ion-title>
-      Tab 1
+      Mes abonnements
     </ion-title>
+    <ion-buttons slot="end">     
+      <ion-button>
+        <ion-icon name="add" slot="icon-only" color="dark"></ion-icon>
+      </ion-button>      
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card>
+    <ion-item class="bg-netflix">
+        <img src="assets/power-icons/netflix.png">
+      <ion-label>
+      </ion-label>
+      <ion-label >
+        <h3>500 MRU</h3>
+      </ion-label>
+    </ion-item>
+  </ion-card>
+  <ion-card>
+    <ion-item class="bg-psn">
+        <img src="assets/power-icons/psn.png">
+      <ion-label>
+        <h3 class="psn-left">PSN CARD </h3>
+      </ion-label>
+      <ion-label>
+        <h3>500 MRU</h3>
+      </ion-label>
+    </ion-item>
+  </ion-card>
+  <ion-card>
+    <ion-item class="bg-spotify">
+        <img src="assets/power-icons/spotify.png">
+      <ion-label>
+      </ion-label>
+      <ion-label>
+        <h3>500 MRU</h3>
+      </ion-label>
+    </ion-item>
+  </ion-card>
+  <ion-card>
+    <ion-item class="bg">
+        <img src="assets/power-icons/appleMusic.png">
+      <ion-label>
+      </ion-label>
+      <ion-label>
+        <h3 class="apple-music-font">500 MRU</h3>
+      </ion-label>
+    </ion-item>
+  </ion-card>
+  
+  <ion-card>
+    <ion-item class="bg-fortnite">
+        <img width="106px" src="assets/power-icons/fortnite2.png">
+      <ion-label>
+      </ion-label>
+      <ion-label>
+        <h3>500 MRU</h3>
+      </ion-label>
+    </ion-item>
+  </ion-card>
+  <ion-card>
+    <ion-item class="bg-pubg">
+        <img width="76px;" src="assets/power-icons/pubg.png">
+      <ion-label>
+        <h3 class="psn-left">Fortnite</h3>
+      </ion-label>
+      <ion-label>
+        <h3>500 MRU</h3>
+      </ion-label>
+    </ion-item>
+  </ion-card>
+  <ion-card>
+    <ion-item class="bg">
+        <img src="assets/power-icons/deezer.png">
+      <ion-label>
+      </ion-label>
+      <ion-label>
+        <h3 class="apple-music-font">500 MRU</h3>
+      </ion-label>
+    </ion-item>
+  </ion-card>
+  <ion-card>
+    <ion-item class="bg-xboxlive">
+        <img src="assets/power-icons/xboxlive.png">
+      <ion-label>
+      </ion-label>
+      <ion-label>
+        <h3>500 MRU</h3>
+      </ion-label>
+    </ion-item>
+  </ion-card>
 </ion-content>

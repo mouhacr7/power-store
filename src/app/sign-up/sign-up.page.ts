@@ -1,26 +1,30 @@
-import { Component } from '@angular/core';
-import { AuthService } from '../services/auth.service';
 import { Router } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { AuthService } from '../services/auth.service';
 import { AlertController } from '@ionic/angular';
 
 @Component({
-  selector: 'app-tab1',
-  templateUrl: 'tab1.page.html',
-  styleUrls: ['tab1.page.scss']
+  selector: 'app-sign-up',
+  templateUrl: './sign-up.page.html',
+  styleUrls: ['./sign-up.page.scss'],
 })
-export class Tab1Page {
+export class SignUpPage implements OnInit {
 
+  
   constructor(
     private authService: AuthService,
     private router: Router,
     private alertCtrl: AlertController
     ) {}
 
-  async signUpUser():Promise<void> {
-    this.authService.logoutUser()
+  ngOnInit() {
+  }
+
+  async signUpUser(form):Promise<void> {
+    this.authService.signUpUser(form.value.email, form.value.password)
     .then(
       () => {
-        this.router.navigateByUrl('/login');
+        this.router.navigateByUrl('/tab1');
       }, 
       async error => {
         const alert = await this.alertCtrl.create({
