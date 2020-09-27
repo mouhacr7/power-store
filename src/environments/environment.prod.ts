@@ -1,6 +1,6 @@
-const url1 = "https://shop-woo.cloudns.cl/wp-json/wc/v3"
-const authUrl1 = "https://shop-woo.cloudns.cl/wp-json/jwt-auth/v1/token"
-const tokenVerifyUrl1 = "https://shop-woo.cloudns.cl/wp-json/jwt-auth/v1/token/validate"
+const url1 = "https://power-store.wax-house.com/wp-json/wc/v3"
+const authUrl1 = "https://power-store.wax-house.com/wp-json/jwt-auth/v1/token"
+const tokenVerifyUrl1 = "https://power-store.wax-house.com/wp-json/jwt-auth/v1/token/validate"
 
 
 export const environment = {
@@ -9,12 +9,12 @@ export const environment = {
     auth_url: authUrl1,
     token_verify_url: tokenVerifyUrl1,
     readOnlyKeys: {
-        consumer_key: 'ck_85cdd6bc830c2c942542ac7aec1734b9b88b68f5',
-        consumer_secret: 'cs_13b724dc3d6caba718b847589d52131c17f0e41b'
+        consumer_key: 'ck_8c77465101e8a6fe15daddf5a7f2e2b97edc2b41$',
+        consumer_secret: 'cs_ead05fa36c24c2492fe4f37c740914d4f814a873'
     },
     writableKeys: {
-        consumer_key: 'ck_7fb9d2318b11ac1927aca42bed732cc872bf02c2',
-        consumer_secret: 'cs_27202467a024d2c31693945a358f05aed37e78f8'
+        consumer_key: 'ck_b483d15df98af6c4f83ad0b04d4f79070196954d',
+        consumer_secret: 'cs_6706bbf27955e594ffe2fa18f6ac555256ee5738'
     },
     states: [
         {value: 'AN', name: 'Andaman and Nicobar Islands'},
