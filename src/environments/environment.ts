@@ -2,12 +2,9 @@
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-const url1 = 'https://shop-woo.cloudns.cl/wp-json/wc/v3';
-const url2 = 'https://shop.paperetc.in/wp-json/wc/v3';
-const authUrl1 = 'https://shop-woo.cloudns.cl/wp-json/jwt-auth/v1/token';
-const authUrl2 = 'https://shop.paperetc.in/wp-json/jwt-auth/v1/token';
-const tokenVerifyUrl1 = 'https://shop-woo.cloudns.cl/wp-json/jwt-auth/v1/token/validate';
-const tokenVerifyUrl2 = 'https://shop.paperetc.in/wp-json/jwt-auth/v1/token/validate';
+const url1 = "https://power-store.wax-house.com/wp-json/wc/v3"
+const authUrl1 = "https://power-store.wax-house.com/wp-json/jwt-auth/v1/token"
+const tokenVerifyUrl1 = "https://power-store.wax-house.com/wp-json/jwt-auth/v1/token/validate"
 
 
 // noinspection DuplicatedCode
@@ -17,12 +14,12 @@ export const environment = {
     auth_url: authUrl1,
     token_verify_url: tokenVerifyUrl1,
     readOnlyKeys: {
-        consumer_key: 'ck_85cdd6bc830c2c942542ac7aec1734b9b88b68f5',
-        consumer_secret: 'cs_13b724dc3d6caba718b847589d52131c17f0e41b'
+        consumer_key: 'ck_1edddbe5c6a02282f00e799018e1f34b5b75b5ee',
+        consumer_secret: 'cs_160cdf92ecda85801b2581a06fffb83332900088'
     },
     writableKeys: {
-        consumer_key: 'ck_7fb9d2318b11ac1927aca42bed732cc872bf02c2',
-        consumer_secret: 'cs_27202467a024d2c31693945a358f05aed37e78f8'
+        consumer_key: 'ck_8b0f016e6d6ec94cddde39f923b1b1bd3205e5e1',
+        consumer_secret: 'cs_5e1a70020efa521ef228bc191fd895816a1be091'
     },
     states: [
         {value: 'AN', name: 'Andaman and Nicobar Islands'},
